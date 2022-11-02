@@ -186,9 +186,21 @@
               "target": "Package",
               "version": "[3.1.0, )"
             },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Microsoft.OpenApi": {
               "target": "Package",
               "version": "[1.4.3, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.1.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

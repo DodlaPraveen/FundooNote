@@ -123,3 +123,13 @@ C:\Users\HP\Desktop\FundooNotes\FundooNotes\obj\Debug\netcoreapp3.1\FundooNotes.
 C:\Users\HP\Desktop\FundooNotes\FundooNotes\obj\Debug\netcoreapp3.1\FundooNotes.pdb
 C:\Users\HP\Desktop\FundooNotes\FundooNotes\obj\Debug\netcoreapp3.1\FundooNotes.genruntimeconfig.cache
 C:\Users\HP\Desktop\FundooNotes\FundooNotes\bin\Debug\netcoreapp3.1\CloudinaryDotNet.dll
+C:\Users\HP\Desktop\FundooNotes\FundooNotes\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Users\HP\Desktop\FundooNotes\FundooNotes\bin\Debug\netcoreapp3.1\Pipelines.Sockets.Unofficial.dll
+C:\Users\HP\Desktop\FundooNotes\FundooNotes\bin\Debug\netcoreapp3.1\StackExchange.Redis.dll
+C:\Users\HP\Desktop\FundooNotes\FundooNotes\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
+C:\Users\HP\Desktop\FundooNotes\FundooNotes\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\HP\Desktop\FundooNotes\FundooNotes\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\HP\Desktop\FundooNotes\FundooNotes\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+C:\Users\HP\Desktop\FundooNotes\FundooNotes\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+C:\Users\HP\Desktop\FundooNotes\FundooNotes\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\HP\Desktop\FundooNotes\FundooNotes\bin\Debug\netcoreapp3.1\NLog.config

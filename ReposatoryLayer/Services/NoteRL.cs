@@ -82,7 +82,7 @@ namespace ReposatoryLayer.Services
                 NoteEntity result = context.Notes.Where(e => e.NoteID == noteid).FirstOrDefault();
                 if (result != null)
                 {
-                    //NoteEntity noteEntity = new NoteEntity();
+                    
                     result.Title = notes.Title;
                     result.Note = notes.Note;
                     result.Color = notes.Color;

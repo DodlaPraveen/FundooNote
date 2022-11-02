@@ -1,0 +1,121 @@
+2022-11-02 11:32:51.5109 DEBUG Hosting starting
+2022-11-02 11:32:51.9221 INFO User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-02 11:32:51.9926 DEBUG Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-b8eb31a0-923e-481e-9220-6e5eecee49fb.xml'.
+2022-11-02 11:32:52.1406 DEBUG Found key {b8eb31a0-923e-481e-9220-6e5eecee49fb}.
+2022-11-02 11:32:52.1759 DEBUG Considering key {b8eb31a0-923e-481e-9220-6e5eecee49fb} with expiration date 2023-01-19 10:34:11Z as default key.
+2022-11-02 11:32:52.3012 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.30.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-02 11:32:52.3012 DEBUG Decrypting secret element using Windows DPAPI.
+2022-11-02 11:32:52.3012 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.30.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-02 11:32:52.3178 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2022-11-02 11:32:52.3178 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2022-11-02 11:32:52.3337 DEBUG Using key {b8eb31a0-923e-481e-9220-6e5eecee49fb} as the default key.
+2022-11-02 11:32:52.3337 DEBUG Key ring with default key {b8eb31a0-923e-481e-9220-6e5eecee49fb} was loaded during application startup.
+2022-11-02 11:32:53.9833 DEBUG Loaded hosting startup assembly FundooNotes
+2022-11-02 11:32:53.9855 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-11-02 11:32:53.9855 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-11-02 11:32:53.9855 INFO Application started. Press Ctrl+C to shut down.
+2022-11-02 11:32:53.9855 INFO Hosting environment: Development
+2022-11-02 11:32:53.9855 INFO Content root path: C:\Users\HP\Desktop\FundooNotes\FundooNotes
+2022-11-02 11:32:53.9855 DEBUG Hosting started
+2022-11-02 11:32:54.1369 INFO Request starting HTTP/2.0 GET https://localhost:44363/Swagger/index.html  
+2022-11-02 11:32:54.2577 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2022-11-02 11:32:54.2577 TRACE All hosts are allowed.
+2022-11-02 11:32:54.3863 DEBUG Response markup is scheduled to include browser refresh script injection.
+2022-11-02 11:32:55.7922 DEBUG Response markup was updated to include browser refresh script injection.
+2022-11-02 11:32:55.8904 INFO Request finished in 1760.0472ms 200 text/html;charset=utf-8
+2022-11-02 11:32:55.9000 INFO Request starting HTTP/2.0 GET https://localhost:44363/_framework/aspnetcore-browser-refresh.js  
+2022-11-02 11:32:55.9439 INFO Request finished in 44.1127ms 200 application/javascript; charset=utf-8
+2022-11-02 11:32:56.2114 INFO Request starting HTTP/2.0 GET https://localhost:44363/_vs/browserLink  
+2022-11-02 11:32:56.6083 INFO Request finished in 394.4263ms 200 text/javascript; charset=UTF-8
+2022-11-02 11:32:57.0675 INFO Request starting HTTP/2.0 GET https://localhost:44363/swagger/v1/swagger.json  
+2022-11-02 11:32:57.0675 TRACE All hosts are allowed.
+2022-11-02 11:32:57.5876 INFO Request finished in 520.2834ms 200 application/json;charset=utf-8
+2022-11-02 11:33:53.0048 INFO Request starting HTTP/2.0 POST https://localhost:44363/api/User/Register application/json 122
+2022-11-02 11:33:53.0048 TRACE All hosts are allowed.
+2022-11-02 11:33:53.0188 DEBUG POST requests are not supported
+2022-11-02 11:33:53.1152 DEBUG 1 candidate(s) found for the request path '/api/User/Register'
+2022-11-02 11:33:53.1152 DEBUG Endpoint 'FundooNotes.Controllers.UserController.AddUser (FundooNotes)' with route pattern 'api/User/Register' is valid for the request path '/api/User/Register'
+2022-11-02 11:33:53.1152 DEBUG Request matched endpoint 'FundooNotes.Controllers.UserController.AddUser (FundooNotes)'
+2022-11-02 11:33:53.3040 DEBUG AuthenticationScheme: Bearer was not authenticated.
+2022-11-02 11:33:53.3040 INFO Executing endpoint 'FundooNotes.Controllers.UserController.AddUser (FundooNotes)'
+2022-11-02 11:33:53.3200 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider
+2022-11-02 11:33:53.3609 INFO Route matched with {action = "AddUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddUser(CommonLayer.Model.UserRegistration) on controller FundooNotes.Controllers.UserController (FundooNotes).
+2022-11-02 11:33:53.3609 DEBUG Execution plan of authorization filters (in the following order): None
+2022-11-02 11:33:53.3609 DEBUG Execution plan of resource filters (in the following order): None
+2022-11-02 11:33:53.3609 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2022-11-02 11:33:53.3609 DEBUG Execution plan of exception filters (in the following order): None
+2022-11-02 11:33:53.3609 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2022-11-02 11:33:53.3609 DEBUG Executing controller factory for controller FundooNotes.Controllers.UserController (FundooNotes)
+2022-11-02 11:33:53.6323 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-02 11:33:53.6773 DEBUG Executed controller factory for controller FundooNotes.Controllers.UserController (FundooNotes)
+2022-11-02 11:33:53.6953 DEBUG Attempting to bind parameter 'userRegistration' of type 'CommonLayer.Model.UserRegistration' ...
+2022-11-02 11:33:53.7059 DEBUG Attempting to bind parameter 'userRegistration' of type 'CommonLayer.Model.UserRegistration' using the name '' in request data ...
+2022-11-02 11:33:53.7059 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-11-02 11:33:53.7301 DEBUG JSON input formatter succeeded, deserializing to type 'CommonLayer.Model.UserRegistration'
+2022-11-02 11:33:53.7301 DEBUG Done attempting to bind parameter 'userRegistration' of type 'CommonLayer.Model.UserRegistration'.
+2022-11-02 11:33:53.7301 DEBUG Done attempting to bind parameter 'userRegistration' of type 'CommonLayer.Model.UserRegistration'.
+2022-11-02 11:33:53.7301 DEBUG Attempting to validate the bound parameter 'userRegistration' of type 'CommonLayer.Model.UserRegistration' ...
+2022-11-02 11:33:53.7399 DEBUG Done attempting to validate the bound parameter 'userRegistration' of type 'CommonLayer.Model.UserRegistration'.
+2022-11-02 11:33:53.7399 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-02 11:33:53.7399 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-02 11:33:53.7399 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2022-11-02 11:33:53.7399 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2022-11-02 11:33:53.7399 INFO Executing action method FundooNotes.Controllers.UserController.AddUser (FundooNotes) - Validation state: Valid
+2022-11-02 11:33:53.7512 TRACE Executing action method FundooNotes.Controllers.UserController.AddUser (FundooNotes) with arguments (CommonLayer.Model.UserRegistration)
+2022-11-02 11:33:54.9052 INFO Entity Framework Core 3.1.0 initialized 'Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-11-02 11:33:54.9887 DEBUG 'Context' generated a temporary value for the 'UserId' property of new 'UserEntity' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 11:33:55.1113 DEBUG Context 'Context' started tracking 'UserEntity' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 11:33:55.1113 DEBUG SaveChanges starting for 'Context'.
+2022-11-02 11:33:55.1113 DEBUG DetectChanges starting for 'Context'.
+2022-11-02 11:33:55.1350 DEBUG DetectChanges completed for 'Context'.
+2022-11-02 11:33:55.4339 DEBUG Opening connection to database 'FundooNotes' on server 'DESKTOP-F2U15EH\SQLEXPRESS'.
+2022-11-02 11:33:55.7541 DEBUG Opened connection to database 'FundooNotes' on server 'DESKTOP-F2U15EH\SQLEXPRESS'.
+2022-11-02 11:33:55.7541 DEBUG Beginning transaction with isolation level 'Unspecified'.
+2022-11-02 11:33:55.7750 DEBUG Began transaction with isolation level 'ReadCommitted'.
+2022-11-02 11:33:55.8835 DEBUG Creating DbCommand for 'ExecuteReader'.
+2022-11-02 11:33:55.8961 DEBUG Created DbCommand for 'ExecuteReader' (6ms).
+2022-11-02 11:33:55.9331 DEBUG Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([DateOfBirth], [Email], [FirstName], [LastName], [Password])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [UserId]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [UserId] = scope_identity();
+2022-11-02 11:33:56.0572 INFO Executed DbCommand (142ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([DateOfBirth], [Email], [FirstName], [LastName], [Password])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [UserId]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [UserId] = scope_identity();
+2022-11-02 11:33:56.1053 DEBUG Foreign key property 'UserEntity.UserId' detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2022-11-02 11:33:56.1239 DEBUG A data reader was disposed.
+2022-11-02 11:33:56.1288 DEBUG Committing transaction.
+2022-11-02 11:33:56.1288 DEBUG Committing transaction.
+2022-11-02 11:33:56.1288 DEBUG Closing connection to database 'FundooNotes' on server 'DESKTOP-F2U15EH\SQLEXPRESS'.
+2022-11-02 11:33:56.1473 DEBUG Closed connection to database 'FundooNotes' on server 'DESKTOP-F2U15EH\SQLEXPRESS'.
+2022-11-02 11:33:56.1473 DEBUG Disposing transaction.
+2022-11-02 11:33:56.1677 DEBUG An 'UserEntity' entity tracked by 'Context' changed from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-02 11:33:56.1677 DEBUG SaveChanges completed for 'Context' with 1 entities written to the database.
+2022-11-02 11:33:56.1677 INFO Registration is Sucess
+2022-11-02 11:33:56.1768 INFO Executed action method FundooNotes.Controllers.UserController.AddUser (FundooNotes), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2418.6281ms.
+2022-11-02 11:33:56.1768 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2022-11-02 11:33:56.1768 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2022-11-02 11:33:56.1768 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-02 11:33:56.1768 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-02 11:33:56.1768 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2022-11-02 11:33:56.1768 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2022-11-02 11:33:56.1768 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2022-11-02 11:33:56.1768 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2022-11-02 11:33:56.1768 DEBUG No information found on request to perform content negotiation.
+2022-11-02 11:33:56.1768 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-11-02 11:33:56.1768 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2022-11-02 11:33:56.1768 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-11-02 11:33:56.1768 INFO Executing ObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ReposatoryLayer.Entity.UserEntity, ReposatoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-11-02 11:33:56.1963 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2022-11-02 11:33:56.1963 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2022-11-02 11:33:56.1963 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2022-11-02 11:33:56.1963 INFO Executed action FundooNotes.Controllers.UserController.AddUser (FundooNotes) in 2832.3037ms
+2022-11-02 11:33:56.1963 INFO Executed endpoint 'FundooNotes.Controllers.UserController.AddUser (FundooNotes)'
+2022-11-02 11:33:56.2067 DEBUG 'Context' disposed.
+2022-11-02 11:33:56.2067 INFO Request finished in 3212.2546ms 200 application/json; charset=utf-8
